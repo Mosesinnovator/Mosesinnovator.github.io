@@ -30,3 +30,7 @@ function setUserName() {
     myHeading.textContent = `Meejah is cool, ${storedName}`;
   }
   
+  myButton.onclick = () => {
+    setUserName();
+  };
+  
